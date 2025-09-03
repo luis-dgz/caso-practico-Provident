@@ -1,27 +1,32 @@
-# caso-practico-Provident
+# Caso Práctico - Provident
 
-Se llevó a cabo un análisis exploratorio de los datos de ventas, a partir del cual se observó que los diferentes productos y regiones presentan comportamientos distintos, sugiriendo patrones de demanda y tendencias particulares que podrían influir en la planificación comercial y la toma de decisiones estratégicas.
+Se realizó un análisis exploratorio de los datos de ventas, el cual reveló que los productos y las regiones presentan comportamientos diferenciados. Estos hallazgos sugieren patrones de demanda y tendencias particulares que pueden influir en la planificación comercial y la toma de decisiones estratégicas.
 
-![Tendencia Global](imagenes/tendencia_global.png)
+<img src="imagenes/tendencia_global.png" alt="Tendencia Global" width="600">
 
-Regiones: La región Norte es la que tiene un mayor volumen de ventas historicas
-![Regiones](imagenes/Ventas_Region.png)
-![Regiones_Boxplot](imagenes/Boxplots_Region.png)
+## Regiones
+La región Norte muestra el mayor volumen de ventas históricas.
 
-Productos: El producto A es el que más se comporta estable al revisar su distribucción
-![Productos](imagenes/Ventas_Productos.png)
-![Productos_Boxplot](imagenes/Boxplot_Productos.png)
+<img src="imagenes/Ventas_Region.png" alt="Ventas por Región" width="500">
+<img src="imagenes/Boxplots_Region.png" alt="Boxplot por Región" width="500">
 
-Durante el análisis exploratorio de los datos, se identificaron diferencias significativas en el comportamiento de ventas según el producto y la región. Estos hallazgos indican que las dinámicas de consumo no son homogéneas y que cada combinación producto-región podría requerir estrategias específicas de pronóstico y gestión.
+## Productos
+El producto A presenta un comportamiento más estable al revisar su distribución.
 
-El álisis exploratorio permitió examinar las series de ventas históricas, revelando que los productos y regiones muestran variaciones y tendencias distintas. Esto sugiere la necesidad de abordar cada segmento con modelos de pronóstico diferenciados y considerar factores locales en la planificación de ventas.
+<img src="imagenes/Ventas_Productos.png" alt="Ventas por Producto" width="500">
+<img src="imagenes/Boxplot_Productos.png" alt="Boxplot por Producto" width="500">
 
-![PronosticoGlobal](imagenes/PronosticoGlobalEstimacion.png)
-Tras evaluar diferentes alternativas de modelado para las series de ventas, se consideró que el modelo de Holt-Winters era el más adecuado para nuestro caso. Esto se debe a que permite capturar tanto la tendencia como la estacionalidad presente en los datos, ofreciendo pronósticos más consistentes y suavizados. Aunque se exploraron otros enfoques, las características de las series—como la variabilidad por producto y región, y la presencia de patrones estacionales—hicieron que Holt-Winters proporcionara resultados más interpretables y confiables para la planificación de ventas.
+Durante el análisis exploratorio se identificaron diferencias significativas en el comportamiento de ventas según el producto y la región. Esto indica que las dinámicas de consumo no son homogéneas y que cada combinación producto-región podría requerir estrategias específicas de pronóstico y gestión.
 
-Se observa que el pronostico sigue la tendencia de caidas en Enero y Febrero como cada año. 
+El análisis de las series históricas muestra que productos y regiones presentan variaciones y tendencias distintas. Esto sugiere la necesidad de abordar cada segmento con modelos de pronóstico diferenciados, considerando factores locales en la planificación de ventas.
 
+<img src="imagenes/PronosticoGlobalEstimacion.png" alt="Pronóstico Global" width="600">
 
+Tras evaluar diferentes alternativas de modelado, se consideró que el modelo de **Holt-Winters** era el más adecuado para nuestro caso. Este modelo permite capturar tanto la tendencia como la estacionalidad de las series, ofreciendo pronósticos más consistentes y suavizados. Aunque se exploraron otros enfoques, las características de las series—como la variabilidad por producto y región y la presencia de patrones estacionales—hicieron que Holt-Winters proporcionara resultados más interpretables y confiables para la planificación de ventas.
 
-Toda el analisis y comentarios se encuentra el notebook CuadernoTrabajoCasoPractico.ipynb
+Se observa que el pronóstico sigue la tendencia típica de disminución en enero y febrero, como ocurre cada año.
 
+---
+
+**Notebook de trabajo**  
+Todo el análisis, los gráficos y los comentarios se encuentran en el notebook: [`CuadernoTrabajoCasoPractico.ipynb`](CuadernoTrabajoCasoPractico.ipynb)
