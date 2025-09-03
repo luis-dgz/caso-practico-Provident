@@ -19,8 +19,8 @@ El producto A presenta un comportamiento más estable al revisar su distribució
 
 <table>
 <tr>
-<td><img src="imagenes/Ventas_Productos.png" alt="Ventas por Producto" width="300"></td>
-<td><img src="imagenes/Boxplot_Productos.png" alt="Boxplot por Producto" width="300"></td>
+<td><img src="imagenes/Ventas_Producto.png" alt="Ventas por Producto" width="300"></td>
+<td><img src="imagenes/Boxplots_Productos.png" alt="Boxplot por Producto" width="300"></td>
 </tr>
 </table>
 
