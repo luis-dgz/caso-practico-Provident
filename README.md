@@ -7,14 +7,22 @@ Se realizó un análisis exploratorio de los datos de ventas, el cual reveló qu
 ## Regiones
 La región Norte muestra el mayor volumen de ventas históricas.
 
-<img src="imagenes/Ventas_Region.png" alt="Ventas por Región" width="500">
-<img src="imagenes/Boxplots_Region.png" alt="Boxplot por Región" width="500">
+<table>
+<tr>
+<td><img src="imagenes/Ventas_Region.png" alt="Ventas por Región" width="300"></td>
+<td><img src="imagenes/Boxplots_Region.png" alt="Boxplot por Región" width="300"></td>
+</tr>
+</table>
 
 ## Productos
 El producto A presenta un comportamiento más estable al revisar su distribución.
 
-<img src="imagenes/Ventas_Productos.png" alt="Ventas por Producto" width="500">
-<img src="imagenes/Boxplot_Productos.png" alt="Boxplot por Producto" width="500">
+<table>
+<tr>
+<td><img src="imagenes/Ventas_Productos.png" alt="Ventas por Producto" width="300"></td>
+<td><img src="imagenes/Boxplot_Productos.png" alt="Boxplot por Producto" width="300"></td>
+</tr>
+</table>
 
 Durante el análisis exploratorio se identificaron diferencias significativas en el comportamiento de ventas según el producto y la región. Esto indica que las dinámicas de consumo no son homogéneas y que cada combinación producto-región podría requerir estrategias específicas de pronóstico y gestión.
 
